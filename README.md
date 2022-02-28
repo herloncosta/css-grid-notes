@@ -56,7 +56,6 @@ Vamos separar em dois grupos:
 
 
 # Grid: Alinhamento
-
 Existem 6 propriedades para alinhamento:
 
 1. `justify-content`
@@ -71,6 +70,21 @@ Vamos separá-los em 2 grupos.
 1. `justify` e `align` 
 2. `content`, `items` e `self`
 
+
+---
+
+
+## Justify e Align
+Sabendo que o grid é bidimensional, nós temos os eixos x e y.
+
+**eixo x** é o posicionamento horizontal, da esquerda para a direita.
+**eixo y** é o posicionamento vertical, de cima para baixo.
+
+## Content, Items e Self
+Juntando o `justify`, ou o `align`, com esses elementos: `content`, `items` e `self`, nós temos nossas propriedades.
+
+
+---
 
 **Fonte:** Mayk Brito - Rocketseat
 [*Link do vídeo:*](https://youtu.be/HN1UjzRSdBk)
