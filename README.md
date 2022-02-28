@@ -83,8 +83,38 @@ Sabendo que o grid é bidimensional, nós temos os eixos x e y.
 ## Content, Items e Self
 Juntando o `justify`, ou o `align`, com esses elementos: `content`, `items` e `self`, nós temos nossas propriedades.
 
+### Content
 
----
+`justify-content` e `align-content` nos permitem alinhar o próprio grid, relativo ao espaço fora do grid.
+
+O uso dessas propriedades é raro, pos só é aplicado caso o grid seja menor que a área definida. (Por exemplo, quando usamos as dimensões em px o tamanho do grid, poderemos terminar com um grid pequeno, para o tamanho da área do grid).
+
+
+Podemos usar **7 valores**:
+1. start
+2. end
+3. center
+4. stretch
+5. space-between
+6. space-around
+7. space-evenly
+
+
+### Items
+`justify-items` e `align-items` vão nos permitir alinhar os itens do nosso grid, em qualquer espaço disponível, na célula que ele habitar.
+
+Podemos usar **4 valores**:
+1. start
+2. end
+3. cemter
+4. stretch
+
+
+### Self
+`justify-self` e `align-self` vão nos ajudar a alinhar o item em si.
+
+Faz a mesma coisa que o `justify-items` e `align-items`, porém, aplicado diretamente no item de um grid.
+
 
 **Fonte:** Mayk Brito - Rocketseat
 [*Link do vídeo:*](https://youtu.be/HN1UjzRSdBk)
